@@ -3,3 +3,4 @@ This is the bug fix in development branch
  After bug fixing, this is the new feature with minor alteration”
 This is the advancement of previous feature
 this is  our 3 feature
+Feature 2 is completed and ready for release
