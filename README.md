@@ -23,3 +23,10 @@
 To rebase a feature branch onto the master branch:
 git checkout feature-branch
 git rebase master
+20. git stash:Temporarily saves your current changes and cleans the working directory without committing them
+21. git stash pop:This command applies the most recently stashed changes and removes them from the stash list.
+22. git stash clear:This command removes all the stashed entries, freeing up space and removing unnecessary stashed changes
+23. git fetch --all --prune :This command fetches all branches from all remotes and prunes (removes) any branches that have been deleted on the remote.
+24. git reset --hard upstream/main:This command resets your local branch to match the upstream/main branch exactly, discarding any local changes. Use with caution as it will delete all local changes that are not committed.
+25. This command fetches and merges changes from the upstream/main branch into your current branch. If upstream is the remote repository's name, it will bring the latest changes from the main branch into your current branch
+
