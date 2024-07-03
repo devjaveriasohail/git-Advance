@@ -10,3 +10,9 @@
 10. git branch: List all branches in the repository.
 11. git restore --staged <filename>: Unstage a file (reverse git add).
 12. git clone <repo_link>: clone the remote repository to your local system.
+13. git stash:Temporarily saves your current changes and cleans the working directory without committing them
+14. git stash pop:This command applies the most recently stashed changes and removes them from the stash list.
+15. git stash clear:This command removes all the stashed entries, freeing up space and removing unnecessary stashed changes
+16. git fetch --all --prune :This command fetches all branches from all remotes and prunes (removes) any branches that have been deleted on the remote.
+17. git reset --hard upstream/main:This command resets your local branch to match the upstream/main branch exactly, discarding any local changes. Use with caution as it will delete all local changes that are not committed.
+18. This command fetches and merges changes from the upstream/main branch into your current branch. If upstream is the remote repository's name, it will bring the latest changes from the main branch into your current branch
